@@ -1,0 +1,5 @@
+<p>students works!</p>
+<div *ngFor="let st of students">
+    <a [routerLink]="['/StudentDetails', st.stid]">{{st.name}}</a> |
+
+</div>
